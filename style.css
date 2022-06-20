@@ -10,9 +10,21 @@
 }
 
 .picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 55vw;
     height: 100vh;
-    background-color: blue;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container {
+    width: 100%;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.527);
+
 }
 
 .form-container {
