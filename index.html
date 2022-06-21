@@ -27,7 +27,7 @@
                 <div class="input-header"> 
                     <p> Let's do this! </p> 
                 </div>
-                <form action="#">
+                <form action="#" id="myform">
                     <div class="group1"> 
                         <div> 
                             <label for="user_firstname"> First Name:* </label>
@@ -39,7 +39,6 @@
                             <input type="text" name="user_lastname" id="user_lastname"required>
                         </div>
                     </div>
-
                     <div class="group2">
                         <div>
                             <label for="user_email"> Email:* </label>
@@ -51,23 +50,21 @@
                             <input type="text" name="user_phone" id="user_phone" required>
                         </div>
                     </div>
-
                     <div class="group3">
                         <div>
                             <label for="user_password"> Password:* </label>
                             <input type="password" name="user_password" id="user_password" required>
                         </div>
-
                         <div>
                             <label for="user_passwordconfirm"> Confirm Password:* </label>
-                            <input type="text" name="user_passwordconfirm" id="user_passwordconfirm" required>
+                            <input type="password" name="user_passwordconfirm" id="user_passwordconfirm" required>
                         </div>
                     </div>
                 </form>
             </div>
-
             <div class="form-footer"> 
-
+                <button type="submit" form="myform"> Create Account </button>
+                <p> Already have an account? <a href="#"> <span class="green"> Log in</span></p></a> 
             </div>
         </div>
     </div>
